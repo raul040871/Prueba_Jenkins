@@ -17,5 +17,13 @@
   </dependencies>
   <build>
     <finalName>{MindtyRest}</finalName>
+	<plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-war-plugin</artifactId>
+            <configuration>
+                <outputDirectory>C:\Raul\app\apache-tomcat-9.0.8\webapps</outputDirectory>
+            </configuration>
+        </plugin>
+</plugins>
   </build>
 </project>
