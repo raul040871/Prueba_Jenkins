@@ -16,13 +16,13 @@
     </dependency>
   </dependencies>
   <build>
-    <finalName>{MindtyRest}</finalName>
+    <finalName>MindtyRest</finalName>
 	<plugins>
 	<plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-war-plugin</artifactId>
             <configuration>
-                <outputDirectory>/home/ec2-user/apache-tomcat-9.0.10\webapps</outputDirectory>
+                <outputDirectory>/home/ec2-user/apache-tomcat-9.0.10/webapps</outputDirectory>
             </configuration>
         </plugin>
 </plugins>
